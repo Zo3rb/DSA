@@ -52,6 +52,8 @@ This section covers various algorithms and algorithmic techniques, such as:
 
 I've provided solutions to a wide range of LeetCode problems, complete with explanations and code. These solutions are organized by difficulty level, making it easier for you to find the right problems to practice on.
 
+[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=Zo3rb&theme=dark)](https://github.com/KnlnKS/leetcode-stats)
+
 ## Contributing
 
 If you'd like to contribute to this repository, feel free to submit pull requests or open issues. I welcome contributions, whether it's fixing a typo, adding more explanations, or providing alternative solutions to problems.
