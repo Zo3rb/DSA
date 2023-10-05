@@ -1,5 +1,7 @@
 # Data Structures and Algorithms (DSA) Learning Journey
 
+!["DSAIMG"](./ss.gif)
+
 Welcome to my Data Structures and Algorithms (DSA) learning journey repository! This repository serves as a documentation of my progress as I delve into the world of data structures, algorithms, and problem-solving on platforms like LeetCode. I'm excited to share my journey, insights, and code with you.
 
 ## About
