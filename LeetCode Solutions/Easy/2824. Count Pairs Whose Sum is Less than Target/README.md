@@ -36,3 +36,5 @@ Given a **0-indexed** integer array `nums` of length `n` and an integer `target`
 
 - `1 <= nums.length == n <= 50`
 - `-50 <= nums[i], target <= 50`
+
+![](./ss.png)

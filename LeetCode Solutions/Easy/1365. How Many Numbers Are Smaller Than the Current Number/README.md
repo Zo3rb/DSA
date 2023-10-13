@@ -31,3 +31,5 @@ For nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).
 
 - `2 <= nums.length <= 500`
 - `0 <= nums[i] <= 100`
+
+![](./ss.png)
