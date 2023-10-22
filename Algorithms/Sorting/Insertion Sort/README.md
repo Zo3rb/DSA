@@ -1,33 +1,22 @@
-# [Insertion Sort](./insertion_sort.cpp).
+# Insertion Sort
 
-## Insertion Sort Algorithm.
+Insertion Sort is a simple sorting algorithm that is particularly efficient for small or nearly sorted lists. It works by dividing the input list into two parts: the sorted part and the unsorted part. In each iteration, the algorithm selects one element from the unsorted part and inserts it into its correct position within the sorted part. While it's not the most efficient sorting algorithm for large datasets, it's great for understanding sorting concepts.
 
-### Credit [GeeksForGeeks](https://www.geeksforgeeks.org/insertion-sort/)
+## How It Works
 
-#### Definition.
-Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
+1. Start with the first element as the sorted part and the remaining elements as the unsorted part.
+2. Consider one element from the unsorted part at a time and insert it into its correct position in the sorted part.
+3. To insert an element, compare it with the elements in the sorted part and move larger elements to the right.
+4. Repeat these steps for each element in the unsorted part, moving the boundary between the sorted and unsorted parts one element to the right each time.
 
-#### Another Simple Definition.
-The Insertion sort algorithm sorting by building up the sort by gradually creating a larger left half which is always sorted.
+![](https://media.geeksforgeeks.org/wp-content/uploads/insertionsort.png)
 
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/insertionsort.png" alt="Visualizing Insertion Sort" />
+Insertion sort has a time complexity of O(n^2) in the worst and average cases, but it can be very efficient for small lists or lists that are already partially sorted.
 
-#### Pseudo Code.
+- **Worst-case time complexity:** O(n^2) - In the worst-case scenario, when the input list is in reverse order, insertion sort will require a large number of comparisons and shifts for each element.
 
-```
-Iterate from arr[1] to arr[N] over the array. 
-Compare the current element (key) to its predecessor. 
-If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.
-```
+- **Best-case time complexity:** O(n) - In the best-case scenario, when the input list is already sorted, insertion sort performs a minimal number of comparisons and shifts. It's a linear-time operation.
 
-#### Best Case.
+- **Average-case time complexity:** O(n^2) - On average, insertion sort requires quadratic time due to the number of comparisons and shifts.
 
-```
-Nearly or Already Sorted.
-```
-
-#### Worst Case.
-
-```
-All Elements are in Deascading Order.
-```
+Insertion sort is an excellent algorithm for educational purposes and for sorting small or nearly sorted datasets efficiently.

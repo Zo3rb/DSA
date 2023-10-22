@@ -1,18 +1,24 @@
-function insertionSort(arr) {
-  for (let i = 1; i < arr.length; i++) {
-    const key = arr[i]; // Select the current element to insert
-    let j = i - 1;
+let arr = [1, 44, 5, 78, 22, 4, 9, 90];
 
-    // Move elements of arr[0...i-1], which are greater than key, one position ahead of their current position
-    while (j >= 0 && key < arr[j]) {
+function sort(arr) {
+  /* 
+    	Assuming the left portion is a sorted and we'll start from the second element
+        as the begging of the second portion (un-sorted array).
+    */
+  for (let i = 1; i < arr.length; i++) {
+    // Indicator for the Current Element.
+    let currentElement = arr[i];
+    // Indicator for the previous Index.
+    let j = i - 1;
+    // Comparing and Swapping if Needed.
+    while (j >= 0 && currentElement < arr[j]) {
       arr[j + 1] = arr[j];
-      j--;
+      j -= 1;
     }
-    arr[j + 1] = key; // Insert the selected element into its correct position
+    // Putting the highest element into the last index.
+    arr[j + 1] = currentElement;
   }
 }
 
-// Example usage:
-const arr = [64, 34, 25, 12, 22, 11, 90];
-insertionSort(arr);
-console.log("Sorted array:", arr);
+sort(arr);
+console.log(arr);
