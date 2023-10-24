@@ -49,3 +49,5 @@ Employee table:
 ```
 
 **Explanation:** Joe is the only employee who earns more than his manager.
+
+![](./ss.png)
